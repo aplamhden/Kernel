@@ -42,7 +42,7 @@ def gabor(n_values=32, sigma=1.0, mean=0.0):
 
 # %% Confirm this does something:
 plt.imshow(gabor().eval())
-
+print(kala pige 50i fora)
 # %% And another function which can convolve
 def convolve(img, W):
     # The W matrix is only 2D
@@ -85,3 +85,4 @@ out = convolve(x, gabor())
 result = tf.squeeze(out).eval(feed_dict={x: img})
 plt.imshow(result)
 print(kala pige)
+print(kala pige 2i fora)
