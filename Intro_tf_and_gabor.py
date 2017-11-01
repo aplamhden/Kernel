@@ -84,3 +84,4 @@ out = convolve(x, gabor())
 # %% Now send the image into the graph and compute the result
 result = tf.squeeze(out).eval(feed_dict={x: img})
 plt.imshow(result)
+print(kala pige)
